@@ -4,7 +4,8 @@
   "description": "A list of articles that the VH Dev teams likes and thinks are useful.",
   "main": "src/cron.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node src/cron.js"
   },
   "keywords": [
     "articles",
@@ -13,7 +14,6 @@
   "author": "VandyHacks",
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
-    "markdown-it": "^8.4.2",
     "strip-json-comments": "^2.0.1"
   }
 }
