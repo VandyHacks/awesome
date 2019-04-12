@@ -16,7 +16,7 @@ action "Build" {
 
 action "Commit it!" {
   uses = "docker://cdssnc/auto-commit-github-action"
-  needs = ["Build"]
+  needs = "Build"
   args = "This is an automatic build of the README based on the data JSON."
   secrets = ["GITHUB_TOKEN"]
 }
