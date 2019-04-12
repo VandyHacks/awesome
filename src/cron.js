@@ -29,6 +29,7 @@ const stripJsonComments = require('strip-json-comments'),
     contents += `- [${article.name}](${article.URL}): ${article.description}`;
   }
 
+  contents += `\n \n *Automatically generated at ${new Date().toTimeString()}`;
   try {
     fs.promises.writeFile('README.md', contents);
     console.log('successfully wrote to README.md');
