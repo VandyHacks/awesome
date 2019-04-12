@@ -28,14 +28,14 @@ A curated list of readings that the VandyHacks dev team finds interesting and us
 
 ## react
 
-- [Intro to hooks](https://reactjs.org/docs/hooks-intro.html): The canonical explanation of React
-  Hooks from the team.
-- [Why we don't need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367):
-  An argument from Dan Abramov (go look him up!) about why Redux is often not needed
 - [Deciding component structure](https://reactjs.org/docs/thinking-in-react.html): A guide on how to
   create a React component hierarchy.
 - [Getting started with React Router](https://reacttraining.com/react-router/web/guides/quick-start):
   What it sounds likes - authenticated routes and passing state
+- [Intro to hooks](https://reactjs.org/docs/hooks-intro.html): The canonical explanation of React
+  Hooks from the team.
+- [Why we don't need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367):
+  An argument from Dan Abramov (go look him up!) about why Redux is often not needed
 
 ## servers
 
@@ -43,13 +43,13 @@ A curated list of readings that the VandyHacks dev team finds interesting and us
 
 ## shell
 
-- [zsh](http://fendrich.se/blog/2012/09/28/no/): Why we like ZSH as our shell
 - [Helpful shell commands](https://www.guru99.com/linux-pipe-grep.html): Pipe, grep, sort, filter
   commands which are useful for logging and such
+- [zsh](http://fendrich.se/blog/2012/09/28/no/): Why we like ZSH as our shell
 
 ## typescript
 
 - [Best practices](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html):
   A good guide to the dos and don'ts for typescript from MSFT.
 
-_Automatically generated at 21:12:51 GMT+0000 (Coordinated Universal Time)_
+_Automatically generated at 22:14:40 GMT+0000 (Coordinated Universal Time)._
