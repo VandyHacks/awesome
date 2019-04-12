@@ -1,8 +1,5 @@
-const stripJsonComments = require('strip-json-comments');
-const fs = require('fs');
-
-const MarkdownIt = require('markdown-it'),
-  md = new MarkdownIt();
+const stripJsonComments = require('strip-json-comments'),
+  fs = require('fs');
 
 (async () => {
   const data = JSON.parse(
@@ -32,5 +29,10 @@ const MarkdownIt = require('markdown-it'),
     contents += `- [${article.name}](${article.URL}): ${article.description}`;
   }
 
-  fs.promises.writeFile('README.md', contents);
+  try {
+    fs.promises.writeFile('README.md', contents);
+    console.log('successfully wrote to README.md');
+  } catch (err) {
+    console.error('something bad happened');
+  }
 })();
