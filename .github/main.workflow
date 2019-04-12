@@ -12,4 +12,5 @@ action "Build" {
   needs = "Install"
   uses = "actions/npm@master"
   args = "run build"
+  secrets = ["GITHUB_TOKEN"]
 }
