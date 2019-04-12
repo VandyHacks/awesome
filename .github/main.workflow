@@ -1,6 +1,6 @@
 workflow "Build README" {
   on = "push"
-  resolves = ["actions/bin/filter@46ffca7632504e61db2d4cb16be1e80f333cb859"]
+  resolves = ["Commit"]
 }
 
 action "Install" {
@@ -14,7 +14,7 @@ action "Build" {
   args = "run build"
 }
 
-action "Commit it!" {
+action "Commit" {
   uses = "docker://cdssnc/auto-commit-github-action"
   needs = "Build"
   args = "This is an automatic build of the README based on the data JSON."
