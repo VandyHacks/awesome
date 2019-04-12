@@ -10,8 +10,8 @@ const fs = require('fs');
     categoryText += links[1]
       .sort((a, b) => a.name.toUpperCase().localeCompare(b.name.toUpperCase()))
       .reduce(
-        (bulletpoints, article) =>
-          (bulletpoints += `- [${article.name}](${article.URL}): ${article.description}\n`),
+        (bulletpoints, { name, URL, description }) =>
+          (bulletpoints += `- [${name}](${URL}): ${description}\n`),
         '',
       );
 
