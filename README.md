@@ -3,6 +3,7 @@
  
  ## backend 
 - [CORS explained](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b): CORS is important but sucks - this explains it and tries to solve common problems
+- [Guide to easy SSL](https://www.troyhunt.com/the-6-step-happy-path-to-https/): A great article from Troy Hunt on how to easily secure your website's data in transit. Really important for us since we handle personal data.
 - [Intro to JWT](https://jwt.io/introduction/): Explains how to securely transmit secrets as a JSON
  
  ## devops 
@@ -31,4 +32,4 @@
 - [Best practices](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html): A good guide to the dos and don'ts for typescript from MSFT.
 
  
- *Automatically generated at 20:06:00 GMT+0000 (Coordinated Universal Time)*
+ *Automatically generated at 20:15:02 GMT+0000 (Coordinated Universal Time)*
