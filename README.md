@@ -31,4 +31,4 @@
 - [Best practices](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html): A good guide to the dos and don'ts for typescript from MSFT.
 
  
- *Automatically generated at 19:56:45 GMT+0000 (Coordinated Universal Time)*
+ *Automatically generated at 20:06:00 GMT+0000 (Coordinated Universal Time)*
