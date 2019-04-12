@@ -18,6 +18,13 @@ module.exports = [
     URL: 'https://jwt.io/introduction/',
     category: 'backend',
   },
+  {
+    name: 'Guide to easy SSL',
+    description:
+      "A great article from Troy Hunt on how to easily secure your website's data in transit. Really important for us since we handle personal data.",
+    URL: 'https://www.troyhunt.com/the-6-step-happy-path-to-https/',
+    category: 'backend',
+  },
 
   // START DEVOPS
   {
