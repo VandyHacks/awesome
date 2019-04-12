@@ -5,7 +5,8 @@
   "main": "src/cron.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node src/cron.js"
+    "build": "node src/cron.js",
+    "lint": "prettier README.md ./src/*.js --write"
   },
   "keywords": [
     "articles",
@@ -13,7 +14,8 @@
   ],
   "author": "VandyHacks",
   "license": "SEE LICENSE IN LICENSE.md",
-  "dependencies": {
-    "strip-json-comments": "^2.0.1"
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.16.4"
   }
 }

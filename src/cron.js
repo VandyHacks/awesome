@@ -1,10 +1,7 @@
-const stripJsonComments = require('strip-json-comments'),
-  fs = require('fs');
+const fs = require('fs');
 
 (async () => {
-  const data = JSON.parse(
-    stripJsonComments(await fs.promises.readFile('./src/data.jsonc', 'utf8')),
-  )
+  const data = require('./data')
     .filter(el => el.name !== '')
     .sort((a, b) => {
       const A = a.category.toUpperCase(),
@@ -26,7 +23,7 @@ const stripJsonComments = require('strip-json-comments'),
       lastCategory = article.category;
       contents += ` \n ## ${lastCategory} \n`;
     }
-    contents += `- [${article.name}](${article.URL}): ${article.description}`;
+    contents += `- [${article.name}](${article.URL}): ${article.description}\n`;
   }
 
   contents += `\n \n *Automatically generated at ${new Date().toTimeString()}*`;
