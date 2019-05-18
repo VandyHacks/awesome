@@ -1,5 +1,7 @@
 # VH Awesome
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/VandyHacks/awesome.svg)](https://greenkeeper.io/)
+
 A curated list of readings that the VandyHacks dev team finds interesting and useful.
 
 ## backend
